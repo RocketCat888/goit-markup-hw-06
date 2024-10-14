@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
-    >
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
-    >
-    <link rel="stylesheet" href="./css/styles.css">
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="page-header">
@@ -51,10 +51,16 @@
             </li>
           </ul>
         </address>
+        <button class="burger-btn" type="button">
+        <svg class="burger-icon" width="24" height="24">
+          <use href="./images/icons.svg#icon-heroicons"></use>
+        </svg>
+      </button>
+        <nav class="mobile-menu"></nav>
       </div>
     </header>
     <main>
-      <section class="page-section">
+      <!-- <section class="page-section">
         <div class="container">
           <h1 class="page-section-title">
             Effective Solutions for Your Business
@@ -63,8 +69,8 @@
             <span class="button-title">Order Service</span>
           </button>
         </div>
-      </section>
-      <section class="section-benefits">
+      </section> -->
+      <!-- <section class="section-benefits">
         <div class="container">
           <h2 class="visually-hidden">Our benefits</h2>
           <ul class="benefits-list-icon">
@@ -128,8 +134,8 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="section-team">
+      </section> -->
+      <!-- <section class="section-team">
         <div class="container">
           <h2 class="section-team-title">Our Team</h2>
           <ul class="team-list">
@@ -139,7 +145,7 @@
                 alt="Mark Guerrero avatar"
                 width="264"
                 height="260"
-              >
+              />
               <div class="team-info">
                 <h3 class="team-member">Mark Guerrero</h3>
                 <p class="team-profession">Product Designer</p>
@@ -181,7 +187,7 @@
                 alt="Tom Ford avatar"
                 width="264"
                 height="260"
-              >
+              />
               <div class="team-info">
                 <h3 class="team-member">Tom Ford</h3>
                 <p class="team-profession">Frontend Developer</p>
@@ -223,7 +229,7 @@
                 alt="Camila Garcia avatar"
                 width="264"
                 height="260"
-              >
+              />
               <div class="team-info">
                 <h3 class="team-member">Camila Garcia</h3>
                 <p class="team-profession">Marketing</p>
@@ -265,7 +271,7 @@
                 alt="Daniel Wilson avatar"
                 width="264"
                 height="260"
-              >
+              />
               <div class="team-info">
                 <h3 class="team-member">Daniel Wilson</h3>
                 <p class="team-profession">UI Designer</p>
@@ -303,19 +309,24 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="section-portfolio">
+      </section> -->
+      <!-- <section class="section-portfolio">
         <div class="container">
           <h2 class="section-portfolio-title">Our Portfolio</h2>
           <ul class="portfolio-list">
             <li class="portfolio-item">
               <div class="overlay-div">
+                <picture>
+                  <source>
+                  <source>
+                  <source>
+                </picture>
                 <img
                   src="./images/banking-app.jpg"
                   alt="banking-app"
                   width="360"
                   height="300"
-                >
+                />
                 <p class="portfolio-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -334,7 +345,7 @@
                   alt="cashless-payment"
                   width="360"
                   height="300"
-                >
+                />
                 <p class="portfolio-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -353,7 +364,7 @@
                   alt="meditation-app"
                   width="360"
                   height="300"
-                >
+                />
                 <p class="portfolio-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -372,7 +383,7 @@
                   alt="taxi-service"
                   width="360"
                   height="300"
-                >
+                />
                 <p class="portfolio-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -391,7 +402,7 @@
                   alt="screen-illustrations"
                   width="360"
                   height="300"
-                >
+                />
                 <p class="portfolio-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -410,7 +421,7 @@
                   alt="online-courses"
                   width="360"
                   height="300"
-                >
+                />
                 <p class="portfolio-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -424,9 +435,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container footer-container">
         <div class="footer-container-logo">
           <a class="footer-logo-first" href="./index.html"
@@ -479,7 +490,7 @@
                 type="email"
                 name="user-email"
                 placeholder="E-mail"
-              >
+              />
             </label>
             <button class="footer-subscribe-button" type="submit">
               Subscribe
@@ -490,9 +501,9 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
 
-    <div class="modal-backdrop">
+    <!-- <div class="modal-backdrop">
       <div class="modal">
         <button class="modal-close-btn" type="button">
           <svg class="modal-close-icon" width="8" height="8">
@@ -512,7 +523,7 @@
                 id="user-name"
                 name="user-name"
                 required
-              >
+              />
               <svg class="review-form-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-user"></use>
               </svg>
@@ -527,7 +538,7 @@
                 id="user-phone"
                 name="user-phone"
                 required
-              >
+              />
               <svg class="review-form-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
@@ -542,7 +553,7 @@
                 id="user-email"
                 name="user-email"
                 required
-              >
+              />
               <svg class="review-form-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
@@ -567,7 +578,7 @@
               name="user-privacy"
               value="true"
               required
-            >
+            />
             <label class="review-checkbox-label" for="user-privacy">
               <span class="review-custom-checkbox">
                 <svg class="review-checkbox-icon" width="10" height="8">
@@ -583,6 +594,6 @@
           <button class="review-submit-button" type="submit">Send</button>
         </form>
       </div>
-    </div>
+    </div> -->
   </body>
 </html>
